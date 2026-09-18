@@ -87,5 +87,8 @@ footer img {
 }
 
 @media (max-width: 767px) {
-
+  #a-grid {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
