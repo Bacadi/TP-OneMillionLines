@@ -56,11 +56,15 @@ i {
   background-color: rgb(200, 200, 200);
 }
 
-.fourline {
-  text-size-adjust: 4;
-  line-clamp: 4;
+footer {
+  background-color: rgb(220, 71, 71);
 }
 
+footer img {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
