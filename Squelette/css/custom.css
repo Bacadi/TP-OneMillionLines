@@ -34,6 +34,22 @@ h1 {
   font-size: 4rem
 }
 
+h2, .org {
+  color: rgb(220, 71, 71) !important;
+}
+
+
+.short-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -50px; /* Distance from text */
+  left: 45%;    /* Centers a 50% width line (100% - 50% = 50% / 2 = 25%) */
+  width: 10%;   /* Horizontal width of the underline */
+  height: 1px;  /* Thickness of the underline */
+  background-color: rgb(220, 71, 71);
+}
+
+
 
 
 
