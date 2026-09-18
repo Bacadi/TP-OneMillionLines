@@ -28,6 +28,7 @@
     background-image: url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    background-size: cover;
 }
 
 h1 {
@@ -67,11 +68,11 @@ footer img {
 }
 
 #back-to-top {
+  text-decoration: none;
   position: fixed;
   top: 5%;
   left: 95%;
   rotate: 45deg;
-  border-radius: 5px;
 }
 
 
