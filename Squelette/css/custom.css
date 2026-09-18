@@ -34,26 +34,32 @@ h1 {
   font-size: 4rem
 }
 
-h2, .org {
+h2 {
+  text-decoration: underline 1px;
+  text-underline-position: below;
+  text-underline-offset: 10px;
+}
+
+h2, h3, .org {
   color: rgb(220, 71, 71) !important;
 }
 
-
-.short-underline::after {
-  content: "";
-  position: absolute;
-  bottom: -50px; /* Distance from text */
-  left: 45%;    /* Centers a 50% width line (100% - 50% = 50% / 2 = 25%) */
-  width: 10%;   /* Horizontal width of the underline */
-  height: 1px;  /* Thickness of the underline */
-  background-color: rgb(220, 71, 71);
+i {
+  color: white;
 }
 
+.btn-card {
+  border: 1px solid rgb(200, 200, 200) !important;
+  border-radius: 5px !important;
+}
+.btn-card:hover {
+  background-color: rgb(200, 200, 200);
+}
 
-
-
-
-
+.fourline {
+  text-size-adjust: 4;
+  line-clamp: 4;
+}
 
 /* Responsive Styling */
 
